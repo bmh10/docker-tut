@@ -7,4 +7,4 @@ docker build -t hello .
 docker images
 
 # Run container
-docker run -p 80:4001 hello
+docker run -p 4001:80 hello
